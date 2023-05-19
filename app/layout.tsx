@@ -1,10 +1,10 @@
 import './globals.css'
 import { M_PLUS_1 } from 'next/font/google'
 
-const mplus1_nomal =M_PLUS_1({
-  weight: "400",
+const mplus1 =M_PLUS_1({
   subsets: ["latin"],
 });
+
 
 
 
@@ -20,8 +20,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="jp">
-      <body className={mplus1_nomal.className} >
-        <div className='max-w-md m-auto bg-white h-screen'>
+      <body className={mplus1.className} >
+        <div className='max-w-sm m-auto bg-white h-screen'>
         {children}
         </div>
         </body>
