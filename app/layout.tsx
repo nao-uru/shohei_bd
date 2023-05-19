@@ -1,7 +1,12 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { M_PLUS_1 } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const mplus1_nomal =M_PLUS_1({
+  weight: "400",
+  subsets: ["latin"],
+});
+
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -14,8 +19,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="jp">
+      <body className={mplus1_nomal.className} >
+        <div className='max-w-md m-auto bg-white h-screen'>
+        {children}
+        </div>
+        </body>
     </html>
   )
 }
