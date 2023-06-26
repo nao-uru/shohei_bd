@@ -1,7 +1,7 @@
 import './globals.css'
 import { M_PLUS_1 } from 'next/font/google'
 
-const mplus1 =M_PLUS_1({
+const mplus1 = M_PLUS_1({
   subsets: ["latin"],
 });
 
