@@ -1,7 +1,5 @@
 
-import { Buttons } from './button/buttons';
 import Image from 'next/image';
-import { css } from "@emotion/react";
 import { ButtonFill } from './button/fill';
 import { ButtonOutline } from './button/outline';
 import { ButtonText } from './button/text';

@@ -10,9 +10,9 @@ export default function index() {
          src={'/'} height={'0'} width={'0'} 
          heading={"Wel Come!"}
          subtext={"こんにちは！あなたは高椋将平さんですか？"}
-         fillText={"はい。そうです！"} fillLink={"/"}
+         fillText={"はい。そうです！"} fillLink={"/QuestionOne"}
          outlineText={"いいえ。違います！"} outlineLink={"/Error"}
-         textOnlyText={"わからない・・・"} textOnlyLink={"/"}
+         textOnlyText={"わからない・・・"} textOnlyLink={"/Error"}
          />
         </div>
         </div>
