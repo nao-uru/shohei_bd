@@ -13,7 +13,7 @@ export const Modal = (props:any) => {
             <i className='text-Primary-main flex justify-center'>{props.icon}</i>
             <p className='font-bold text-3xl text-Primary-main text-center'>{props.heading}</p>
             <p className='font-bold text-lg text-center my-3'>{props.subtext}</p>
-            <p className='text-base text-center'>{props.text}</p>
+            <p className='text-base text-center mb-2'>{props.text}</p>
             <Image src={props.src} alt='illust' width={props.width} height={props.height} />
             <div className='mt-4'>{props.isFillButton ? <ButtonFill text={props.fillText} link={props.fillLink} /> : ""} </div>
             <div className='mt-4'>{props.isOutlineButton ? <ButtonOutline text={props.outlineText} link={props.outlineLink} /> : ""} </div>

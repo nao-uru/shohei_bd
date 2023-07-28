@@ -4,7 +4,10 @@
 
 
 body {
-  background-image: url("https://source.unsplash.com/random");
+  color: #121111;
+  /* background-image: url("https://github.com/nao-uru/shohei_bd/blob/main/public/bg.jpeg?raw=true"); */
+  background-image: url("https://source.unsplash.com/DbwYNr8RPbg");
+  background-size: cover;
 }
 
 .positionCenter {
@@ -40,4 +43,18 @@ body {
 
   .primary {
     color: peru;
+  }
+
+  .bg_main {
+    width: 100%;
+    background-color: #F3F7FA;
+    padding-bottom: 24px;
+  }
+
+  .shadow_card {
+    box-shadow: 4px 4px 10px 0px rgba(190, 197, 202, 0.20);
+  }
+
+  .shadow_text {
+    text-shadow: -3px -4px 8px 0px #FFF, 3px 3px 7px 0px #D8E9F5;
   }
