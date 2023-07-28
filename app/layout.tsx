@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="jp">
       <body className={mplus1.className} >
-        <div className='max-w-sm m-auto bg-white h-screen'>
+        <div className='max-w-md m-auto bg-white h-screen'>
         {children}
         </div>
         </body>

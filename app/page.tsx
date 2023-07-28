@@ -9,9 +9,9 @@ export default function index() {
         <Modal isFillButton={true} isOutlineButton={true} isTextButton={true} 
          src={'/'} height={'0'} width={'0'} 
          heading={"Wel Come!"}
-         subtext={"こんにちは！あなたは高椋将平さんですか？"}
+         subtext={"おはようございます！あなたは高椋将平さんですか？"}
          fillText={"はい。そうです！"} fillLink={"/QuestionOne"}
-         outlineText={"いいえ。違います！"} outlineLink={"/Error"}
+         outlineText={"いいえ。違います！"} outlineLink={"/Miss"}  
          textOnlyText={"わからない・・・"} textOnlyLink={"/Error"}
          />
         </div>

@@ -12,12 +12,12 @@ export default function index() {
         </div>
 
         <div className="mt-8">
-            <p className="text-center text-lg font-extrabold leading-normal">Q2</p>
+            <p className="text-center text-lg font-extrabold leading-normal">Q2 将平と菜央がAPAホテルに忘れたことがないものはどれ？</p>
 
             <div className="mt-8 flex-col justify-start items-center gap-4 inline-flex">
-            <Chips text={"MAKAKA BY Ovolo"} link={"/Miss"} />
-            <Chips text={"MAMAKA BY Ovolo"} link={"/SccusessQ2"} />
-            <Chips text={"MAMAKA BY Ololo"} link={"/Miss"} />
+            <Chips text={"アクセサリー"} link={"/Miss"} />
+            <Chips text={"スマホ"} link={"/SccusessQ2"} />
+            <Chips text={"メガネ"} link={"/Miss"} />
             </div>
         </div>  
 
