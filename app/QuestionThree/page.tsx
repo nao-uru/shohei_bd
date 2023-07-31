@@ -14,7 +14,7 @@ export default function index() {
         <div className="mt-8">
             <p className="text-center text-lg font-extrabold leading-normal">Q3</p>
 
-            <div className="mt-8 flex-col justify-start items-center gap-4 inline-flex">
+            <div className="mt-8 flex-col justify-start items-center gap-4 flex">
             <Chips text={"アクセサリー"} link={"/Miss"} />
             <Chips text={"スマホ"} link={"/SccusessQ3"} />
             <Chips text={"メガネ"} link={"/Miss"} />

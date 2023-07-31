@@ -7,7 +7,7 @@ export default function index() {
         <div className='flex justify-center items-center h-full relative bg px-4'>
         <div className='positionCenter popAnimation'>
         <Modal isFillButton={true} isOutlineButton={false} isTextButton={true}
-         src={'Perfect.svg'} height={"180"} width={'320'} 
+         src={'Perfect.svg'} height={"180"} width={'400'} 
          heading={"Perfect!!"}
          subtext={"将平！お誕生日おめでとう！！"}
          text={"全問正解です！本日の予定を発表します♫"}
