@@ -1,5 +1,6 @@
 import { Schedule } from "@/components/card/schedule";
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function index() {
 
@@ -14,9 +15,8 @@ export default function index() {
                 <p className="shadow_text text-base font-normal">
                 誕生日おめでとう！<br />
                 今日はこれから仙台に行くよ〜<br />
-                誕生日おめでとう！
-                今日はこれから仙台に行くよ〜
-                将平の予想とは違って北にいくよ（笑）
+                将平の予想とは違って北にいくよん！<br />
+
                 </p>
             </div>
 
@@ -41,16 +41,16 @@ export default function index() {
                      <Schedule 
                     date={"2023/8/5 7:46"} 
                     title={"新幹線出発！"}
-                    text={"やまびこ125号・[8号車]15番A・B席出発前にコーヒーでも買ってから乗ろうね"}
+                    text={"やまびこ125号・[8号車]15番A・B席　　　　　　出発前にコーヒーでも買ってから乗ろうね"}
                     image={""}
-                    src={"Shinkansen.svg"}
+                    src={"/Shinkansen.png"}
                     width={"600"}
                      />
 
                      <Schedule 
                     date={"2023/8/5 9:38"} 
                     title={"仙台駅到着！"}
-                    text={"杜の都仙台に到着。意外にすぐ着く！ちなみに仙台は私の好きなジョジョの作者の出身地で、4部のモデルにもなってる場所。"}
+                    text={"杜の都仙台に到着。意外にすぐ着く！　　　ちなみに仙台は私の好きなジョジョの作者の出身地で、4部のモデルにもなってる場所。"}
                     image={"hidden"}
                     src={""}
                      />
@@ -58,9 +58,9 @@ export default function index() {
                      <Schedule 
                     date={"2023/8/5 10:30"} 
                     title={"松島へ"}
-                    text={"日本三景松島！晴れるといいね〜！仙台駅から約30分"}
+                    text={"日本三景松島！晴れそうでよかった！　　　 仙台駅から約30分"}
                     image={""}
-                    src={"Matsushima.svg"}
+                    src={"/Matsushima.png"}
                     width={"600"}
                      />
 
@@ -75,7 +75,7 @@ export default function index() {
                      <Schedule 
                     date={"2023/8/5 14:00"} 
                     title={"仙台駅周辺でカフェタイム"}
-                    text={"駅にCome back!地方だから混んでないとの予想。"}
+                    text={"仙台駅にCome back!地方だから混んでないとの予想。"}
                     image={"hidden"}
                     src={""}
                      />
@@ -83,7 +83,7 @@ export default function index() {
                      <Schedule 
                     date={"2023/8/5 15:00"} 
                     title={"ホテルへGO！"}
-                    text={"三井ガーデンホテル仙台に泊まるよ〜一旦ホテルに荷物を置いて休憩！チェックイン15:00 / アウト11:00 "}
+                    text={"三井ガーデンホテル仙台に泊まるよ〜　　　一旦ホテルに荷物を置いて休憩！　　　　　　チェックイン15:00 / アウト11:00 "}
                     image={"hidden"}
                     src={""}
                      />
@@ -94,7 +94,7 @@ export default function index() {
                     text={"秘密！やっと行けるね！"}
                     image={""}
                     width={"600"}
-                    src={"Hanabi.svg"}
+                    src={"/Hanabi.png"}
                      />
                      <Schedule 
                     date={"2023/8/6 20:30"} 
@@ -138,7 +138,7 @@ export default function index() {
                     title={"××××へ！"}
                     text={"秘密！私もどんなものなのかぜんぜん知らない！楽しみ〜！"}
                     image={""}
-                    src={"Tanabata.svg"}
+                    src={"/Tanabata.png"}
                     width={"600"}
                      />
 
@@ -169,6 +169,7 @@ export default function index() {
             <div className="text-neutral-900 text-[32px] font-normal">Thank you!</div>
             </div>
             <div className="self-stretch text-neutral-900 text-base font-normal leading-normal">2日間楽しもうね！</div>
+            <Image src={"/Fin.png"} alt='ImageFin' width={"400"} height={"180"} />
 
             <Link href={"/"}>
             <div className="self-stretch justify-start items-start inline-flex">

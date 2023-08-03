@@ -2,7 +2,7 @@ import { Modal } from '@/components/modal';
 
 export default function index() {
 
-const imgs = ['/Miss.svg','/Miss2.svg','/Miss3.svg'];
+const imgs = ['/Miss.png','/Miss2.png','/Miss3.png'];
 const imgNumber = Math.floor( Math.random() * imgs.length);
 
 
