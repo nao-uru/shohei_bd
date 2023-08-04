@@ -19,12 +19,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="jp">
+    <html lang="jp" prefix="og: http://ogp.me/ns#">
+      <title>SHOHEI BD</title>
+      <link rel="icon" href="/favicon.png" />
+      <meta property="og:image" content="/favicon.png"></meta>
+
       <body className={mplus1.className} >
         <div className='max-w-md m-auto bg-white h-screen'>
         {children}
         </div>
         </body>
+        
     </html>
   )
 }
