@@ -1,4 +1,4 @@
-import { Modal } from '@/components/modal';
+import { Modal } from '@/components/2023/modal';
 
 export default function index() {
 
@@ -14,7 +14,7 @@ export default function index() {
          src={imgs[imgNumer]} height={"180"} width={'600'} 
          heading={"WHO?"}
          subtext={"どなた？？？"}
-         fillText={"スタートにもどる"} fillLink={"/"}
+         fillText={"スタートにもどる"} fillLink={"/2023/Start"}
          />
         </div>
         </div>

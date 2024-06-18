@@ -1,4 +1,5 @@
 import { Modal } from '@/components/2023/modal';
+import '../../globals.css'
 
 export default function index() {
 
@@ -9,10 +10,10 @@ export default function index() {
         <Modal isFillButton={true} isOutlineButton={true} isTextButton={true} 
          src={'/'} height={'0'} width={'0'} 
          heading={"Wel Come!"}
-         subtext={"見たい年度を選択してね"}
-         fillText={"2023"} fillLink={"/2023/Start"}
-         outlineText={"2024"} outlineLink={"/2024/Start"}  
-         textOnlyText={"2025"} textOnlyLink={"/"}
+         subtext={"おはようございます！あなたは高椋将平さんですか？"}
+         fillText={"はい。そうです！"} fillLink={"/2023/QuestionOne"}
+         outlineText={"いいえ。違います！"} outlineLink={"/2023/Miss"}  
+         textOnlyText={"わからない・・・"} textOnlyLink={"/2023/Error"}
          />
         </div>
         </div>

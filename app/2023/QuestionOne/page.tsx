@@ -1,4 +1,4 @@
-import { Chips } from "@/components/chips/chips";
+import { Chips } from "@/components/2023/chips/chips";
 
 
 export default function index() {
@@ -15,9 +15,9 @@ export default function index() {
             <p className="text-center text-lg font-extrabold leading-normal">Q1 バリ島旅行で宿泊したホテルの名前はなんでしょう？</p>
 
             <div className="mt-8 flex-col justify-start items-center gap-4 flex">
-            <Chips text={"MAKAKA BY Ovolo"} link={"/Miss"} />
-            <Chips text={"MAMAKA BY Ovolo"} link={"/SccusessQ1"} />
-            <Chips text={"MAMAKA BY Ololo"} link={"/Miss"} />
+            <Chips text={"MAKAKA BY Ovolo"} link={"/2023/Miss"} />
+            <Chips text={"MAMAKA BY Ovolo"} link={"/2023/SccusessQ1"} />
+            <Chips text={"MAMAKA BY Ololo"} link={"/2023/Miss"} />
             </div>
         </div>
 

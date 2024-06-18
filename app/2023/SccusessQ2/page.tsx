@@ -1,4 +1,4 @@
-import { Modal } from '@/components/modal';
+import { Modal } from '@/components/2023/modal';
 
 export default function index() {
 
@@ -11,8 +11,8 @@ export default function index() {
          heading={"GOOD!"}
          subtext={"正解です！"}
          text={"さすがにスマホ忘れたら終わり。"}
-         fillText={"次の質問へ"} fillLink={"/QuestionThree"}
-         textOnlyText={"TOPに戻る"} textOnlyLink={"/"}
+         fillText={"次の質問へ"} fillLink={"/2023/QuestionThree"}
+         textOnlyText={"TOPに戻る"} textOnlyLink={"/2023/Start"}
          />
         </div>
         </div>
