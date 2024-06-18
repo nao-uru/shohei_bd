@@ -1,4 +1,4 @@
-import { Modal } from '@/components/modal';
+import { Modal } from '@/components/2023/modal';
 
 export default function index() {
 
@@ -11,7 +11,7 @@ export default function index() {
          heading={"Perfect!!"}
          subtext={"将平！お誕生日おめでとう！！"}
          text={"全問正解です！本日の予定を発表します♫"}
-         fillText={"NEXT"} fillLink={"/Main"}
+         fillText={"NEXT"} fillLink={"/2023/Main"}
          textOnlyText={"TOPに戻る"} textOnlyLink={"/"}
          />
         </div>

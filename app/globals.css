@@ -3,13 +3,6 @@
 @tailwind utilities;
 
 
-body {
-  color: #121111;
-  /* background-image: url("https://github.com/nao-uru/shohei_bd/blob/main/public/bg.jpeg?raw=true"); */
-  background-image: url("https://source.unsplash.com/DbwYNr8RPbg");
-  background-size: cover;
-}
-
 .positionCenter {
   transform: translateY(-50%) translateX(-50%);
   position: absolute;
@@ -18,9 +11,9 @@ body {
   width: 90%;
 }
 
-.bg {
-  background-color: rgba(0, 0, 0, 0.2);
-}
+  .bg {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
 
 .fadeDown{
   animation-name:fadeDownAnime;

@@ -1,4 +1,4 @@
-import { Schedule } from "@/components/card/schedule";
+import { Schedule } from "@/components/2023/card/schedule";
 import Link from "next/link";
 import Image from 'next/image';
 

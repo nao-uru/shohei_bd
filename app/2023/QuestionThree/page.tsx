@@ -1,4 +1,4 @@
-import { Chips } from "@/components/chips/chips";
+import { Chips } from "@/components/2023/chips/chips";
 
 
 export default function index() {
@@ -15,12 +15,12 @@ export default function index() {
             <p className="text-center text-lg font-extrabold leading-normal">Q3 菜央が行ったことのない場所はどこ？</p>
 
             <div className="mt-8 flex-col justify-start items-center gap-4 flex">
-            <Chips text={"ドイツ"} link={"/Miss"} />
-            <Chips text={"チェコ"} link={"/Miss"} />
-            <Chips text={"スロベニア"} link={"/Miss"} />
-            <Chips text={"スイス"} link={"/SccusessQ3"} />
-            <Chips text={"クロアチア"} link={"/Miss"} />
-            <Chips text={"イタリア"} link={"/Miss"} />
+            <Chips text={"ドイツ"} link={"/2023/Miss"} />
+            <Chips text={"チェコ"} link={"/2023/Miss"} />
+            <Chips text={"スロベニア"} link={"/2023/Miss"} />
+            <Chips text={"スイス"} link={"/2023/SccusessQ3"} />
+            <Chips text={"クロアチア"} link={"/2023/Miss"} />
+            <Chips text={"イタリア"} link={"/2023/Miss"} />
             </div>
         </div>  
 
